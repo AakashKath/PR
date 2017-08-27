@@ -10,7 +10,7 @@ with open('Class1.txt', 'r') as csvfile:
         x.append(float(row[0]))
         y.append(float(row[1]))
 
-plt.plot(x, y, label='Loaded from file!')
+plt.plot(x, y, 'ro', label='Loaded from file!')
 plt.xlabel('x')
 plt.ylabel('y')
 plt.title('Interesting Graph\nCheck it out')
